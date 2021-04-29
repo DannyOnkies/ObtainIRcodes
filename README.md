@@ -1,4 +1,4 @@
-# ObtainIRcodes
+# Find out the code sent by an ir remote control
 Obtain ir remote control codes using a Pyboard card and a VS1838 receiver
 _________________________________________________________________________
 
