@@ -15,7 +15,8 @@ Transmitter and receiver are tuned to the same frequency and use the same coding
 In this application I use an ELEGOO remote control supplied with the ARDUINO STARTER KIT.
 
 
-https://user-images.githubusercontent.com/80686975/116553100-0db22080-a8fa-11eb-9bf3-06533cff5e8a.mp4
+https://user-images.githubusercontent.com/80686975/116554602-abf2b600-a8fb-11eb-82ce-2577f20c39df.mp4
+
 
 
 ## **`Technical notes`**
