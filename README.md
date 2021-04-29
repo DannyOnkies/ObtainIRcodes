@@ -2,7 +2,7 @@
 Obtain ir remote control codes using a Pyboard card and a VS1838 receiver
 _________________________________________________________________________
 
-##**`Purpose of the code`**##
+**##`Purpose of the code`##**
 
 When we press the button on the remote how does the TV know what to do?
 The answer is in the modulation of the infrared signal coming out of the remote control.
