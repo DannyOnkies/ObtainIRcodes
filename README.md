@@ -2,6 +2,7 @@
 Obtain ir remote control codes using a Pyboard card and a VS1838 receiver
 
 **`Purpose of the code`**
+
 When we press the button on the remote how does the TV know what to do?
 The answer is in the modulation of the infrared signal coming out of the remote control.
 Usually it is a 38 khz PWM signal with a specific coding for each device.
@@ -9,6 +10,7 @@ Transmitter and receiver are tuned to the same frequency and use the same coding
 In this application I use an ELEGOO remote control supplied with the ARDUINO STARTER KIT.
 
 **`Technical notes`**
+
 In PWM modulation, the duration of the single bit is variable and depends on the logical state of the bit itself.
 Usually the longest bit is associated with bit 1 while the shortest bit is associated with bit 0.
 Many companies use their own protocol. One of the most used is called NEC and is the one used by my remote control.
