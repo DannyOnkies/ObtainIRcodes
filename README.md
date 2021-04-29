@@ -8,7 +8,9 @@ When we press the button on the remote how does the TV know what to do?
 The answer is in the modulation of the infrared signal coming out of the remote control.
 Usually it is a 38 khz PWM signal with a specific coding for each device.
 Transmitter and receiver are tuned to the same frequency and use the same coding.
+
 ![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/telecomando.jpg)
+
 In this application I use an ELEGOO remote control supplied with the ARDUINO STARTER KIT.
 
 **`Technical notes`**
