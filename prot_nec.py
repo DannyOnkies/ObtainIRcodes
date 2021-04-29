@@ -98,8 +98,8 @@ def extract_bit():
     os.remove("burst.txt")
     
 
-# inverte le stringhe di bit
-# e le riporta su file
+# reverses bit strings
+# and reports them on file
 def flip_bit():
     count = 0
     bitf = "bitfile.txt"
