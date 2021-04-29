@@ -1,5 +1,5 @@
 # Find out the code sent by an ir remote control
-Obtain ir remote control codes using a Pyboard card and a VS1838 receiver
+Obtain ir remote control codes using a Pyboard card and a VS1838 receiver. Language used Micropython
 _________________________________________________________________________
 
 
