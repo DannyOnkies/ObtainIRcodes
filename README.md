@@ -47,13 +47,15 @@ The denied codes (complement) serve as a prevention against errors and also to m
 
 The software consists of 4 (+1) functions.
 
-* `decode_ir()` The first to be called, which detects the times when the 38 khz pulse train is in the high or low state. It uses the **`machine.time_pulse_us()`** function which returns the time a pulse has been in a specific state.
+* `decode_ir()` The first to be called, which detects the times when the 38 khz pulse train is in the high or low state. It uses the `machine.time_pulse_us()` function which returns the time a pulse has been in a specific state.
 * `extract_bit()` checks for the presence of the START BIT. This confirms that the incoming pulses modulated with the NEC protocol. The times recorded by decode_ir () are converted into comprehensible and organized sequences of 1's and 0's
 * `flip_bit()` the data sent by the remote control is in the reverse position and must be reversed.
 * `conv_bin_dec()` using `bin2dec()` function converts sequences of bits to decimal numbers
 
 The Micropython function is used to calculate the times when pin X10 is high or low
+
 > machine.time_pulse_us (pin, pulse_level, timeout_us = 1000000).
+
 The signal sent on pin X10 is compared with "pulse_level". If the signal is different, the function waits for the level to change
 if, on the other hand, the level is the same then the timer is started immediately.
 The function returns -2 in case of timeout due to waiting for the condition or -1 for timeout due to measurement (no signal).
