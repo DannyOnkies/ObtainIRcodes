@@ -15,6 +15,7 @@ https://user-images.githubusercontent.com/80686975/116557928-3688e480-a8ff-11eb-
 In this application I use an ELEGOO remote control supplied with the ARDUINO STARTER KIT.
 
 ![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/PyInfraRed.JPG)
+I used a Pyboard v.1.1 with [Micropython](https://micropython.org/)
 
 
 
@@ -35,7 +36,7 @@ The denied codes (complement) serve as a prevention against errors and also to m
 
 **COMPONENTS :**
 * Battery 9v
-* Pyboard 
+* [Pyboard](https://store.micropython.org/product/PYBv1.1H) 
 * VS1838 sensor (The component in the figure is only a place marker and not the VS1838 [link](https://electronoobs.com/images/Arduino/tut_34/receiver_1.png))
 * CABLES
 
