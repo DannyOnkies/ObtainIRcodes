@@ -25,7 +25,16 @@ The remaining fields have a length of 8 bits and are transmitted starting with t
 The denied codes (complement) serve as a prevention against errors and also to make the message duration constant.
 
 ## **`Circuit and components used`**
-![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/telecomando.jpg)
+
+**COMPONENTS :**
+* Battery 9v
+* Pyboard 
+* VS1838 sensor
+* CABLES
+
+
+
+![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/IR_PYBOARD.JPG)
 
 
 
