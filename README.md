@@ -2,6 +2,7 @@
 Obtain ir remote control codes using a Pyboard card and a VS1838 receiver
 _________________________________________________________________________
 
+
 ## **`Purpose of the code`**
 
 When we press the button on the remote how does the TV know what to do?
@@ -13,6 +14,8 @@ Transmitter and receiver are tuned to the same frequency and use the same coding
 
 In this application I use an ELEGOO remote control supplied with the ARDUINO STARTER KIT.
 
+![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/1.mp4)
+
 ## **`Technical notes`**
 
 In PWM modulation, the duration of the single bit is variable and depends on the logical state of the bit itself.
@@ -23,6 +26,7 @@ Bit 1 is formed by 550μs of light followed by 1650μs of dark, while bit 0 is f
 A packet sent from the remote contains 32 bits plus a start bit. The start bit is formed by a low pulse of 9mS followed by a low pulse of 4.5mS.
 The remaining fields have a length of 8 bits and are transmitted starting with the least significant bit (LSB). 
 The denied codes (complement) serve as a prevention against errors and also to make the message duration constant.
+
 
 ## **`Circuit and components used`**
 
@@ -58,11 +62,14 @@ Remember that the NEC protocol requires:
 for the value 1 a signal composed of a time of 550us and then one of 1650us
 for the value 0 a signal consisting of a time of 550μs and then a time of 550μs.
 
+
 ## **`Measurements`**
 I made measurements with the oscilloscope to check the IR signal. 
 
 ![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/NewFile1.jpg)
 ![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/NewFile2.jpg)
+
+Above you can see the measurement of the START BIT, 9ms in the low state and 4.5ms in the high state
 
 
 ## **`Final notes`**
