@@ -13,7 +13,7 @@ Transmitter and receiver are tuned to the same frequency and use the same coding
 
 In this application I use an ELEGOO remote control supplied with the ARDUINO STARTER KIT.
 
-**`Technical notes`**
+## **`Technical notes`**
 
 In PWM modulation, the duration of the single bit is variable and depends on the logical state of the bit itself.
 Usually the longest bit is associated with bit 1 while the shortest bit is associated with bit 0.
@@ -24,7 +24,12 @@ A packet sent from the remote contains 32 bits plus a start bit. The start bit i
 The remaining fields have a length of 8 bits and are transmitted starting with the least significant bit (LSB). 
 The denied codes (complement) serve as a prevention against errors and also to make the message duration constant.
 
-**`Software analysis`**
+## **`Circuit and components used`**
+![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/telecomando.jpg)
+
+
+
+## **`Software analysis`**
 
 The software consists of 4 (+1) functions.
 
@@ -44,7 +49,7 @@ Remember that the NEC protocol requires:
 for the value 1 a signal composed of a time of 550us and then one of 1650us
 for the value 0 a signal consisting of a time of 550μs and then a time of 550μs.
 
-**`Final notes`**
+## **`Final notes`**
 
 The values read, however, are not exactly these, and it is precisely the task of the extract_bit () function to interpret the measured times and return the coherent bit sequences.
 I inserted a microSD card into the Pyboard card slot where the **`conv.txt file`** containing the code of the key pressed is saved.
@@ -63,6 +68,7 @@ An example of file relating to the ON / OFF key:
 
 
 Soon I try to rewrite the software using classes and objects.
+
 Greetings
 
 
