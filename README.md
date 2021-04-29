@@ -48,10 +48,15 @@ I inserted a microSD card into the Pyboard card slot where the **`conv.txt file`
 An example of file relating to the ON / OFF key:
 
 > CONV.TXT
+> 
 > 00000000 0
+> 
 > 11111111 255
+> 
 > 01000101 69
+> 
 > 10111010 186
+> 
 
 
 Soon I try to rewrite the software using classes and objects.
