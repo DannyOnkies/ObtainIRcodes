@@ -14,7 +14,7 @@ Transmitter and receiver are tuned to the same frequency and use the same coding
 
 In this application I use an ELEGOO remote control supplied with the ARDUINO STARTER KIT.
 
-![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/1.mp4)
+![video](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/1.mp4)
 
 ## **`Technical notes`**
 
