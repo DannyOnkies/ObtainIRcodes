@@ -29,7 +29,7 @@ The denied codes (complement) serve as a prevention against errors and also to m
 **COMPONENTS :**
 * Battery 9v
 * Pyboard 
-* VS1838 sensor
+* VS1838 sensor (The component in the figure is only a place marker and not the VS1838)
 * CABLES
 
 
@@ -57,6 +57,13 @@ After identifying the START BIT I read pairs of time values (expressed in uS) in
 Remember that the NEC protocol requires:
 for the value 1 a signal composed of a time of 550us and then one of 1650us
 for the value 0 a signal consisting of a time of 550μs and then a time of 550μs.
+
+## **`Measurements`**
+I made measurements with the oscilloscope to check the IR signal. 
+
+![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/NewFile1.jpg)
+![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/NewFile2.jpg)
+
 
 ## **`Final notes`**
 
