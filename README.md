@@ -16,7 +16,7 @@ In this application I use an ELEGOO remote control supplied with the ARDUINO STA
 
 ![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/PyInfraRed.JPG)
 
-I used a Pyboard v.1.1 with [Micropython](https://micropython.org/)
+I used a [Pyboard](https://store.micropython.org/product/PYBv1.1H)  v.1.1 with [Micropython](https://micropython.org/)
 
 
 
