@@ -11,6 +11,7 @@ Usually it is a 38 khz PWM signal with a specific coding for each device.
 Transmitter and receiver are tuned to the same frequency and use the same coding.
 
 https://user-images.githubusercontent.com/80686975/116557928-3688e480-a8ff-11eb-836c-a184f2127e44.mp4
+
 ![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/telecomando.jpg)
 
 In this application I use an ELEGOO remote control supplied with the ARDUINO STARTER KIT.
