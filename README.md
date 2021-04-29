@@ -24,7 +24,7 @@ I used a [Pyboard](https://store.micropython.org/product/PYBv1.1H)  v.1.1 with [
 
 In PWM modulation, the duration of the single bit is variable and depends on the logical state of the bit itself.
 Usually the longest bit is associated with bit 1 while the shortest bit is associated with bit 0.
-Many companies use their own protocol. One of the most used is called NEC and is the one used by my remote control.
+Many companies use their own protocol. One of the most used is called [NEC](https://www.circuitvalley.com/2013/09/nec-protocol-ir-infrared-remote-control.html) and is the one used by my remote control.
 It is based on a carrier between 38 and 40 khz. 
 Bit 1 is formed by 550μs of light followed by 1650μs of dark, while bit 0 is formed by a high state of 550μs and a low state of equal duration.
 A packet sent from the remote contains 32 bits plus a start bit. The start bit is formed by a low pulse of 9mS followed by a low pulse of 4.5mS.
