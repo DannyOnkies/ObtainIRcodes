@@ -19,6 +19,7 @@ https://user-images.githubusercontent.com/80686975/116557928-3688e480-a8ff-11eb-
 
 
 
+
 ## **`Technical notes`**
 
 In PWM modulation, the duration of the single bit is variable and depends on the logical state of the bit itself.
@@ -31,17 +32,19 @@ The remaining fields have a length of 8 bits and are transmitted starting with t
 The denied codes (complement) serve as a prevention against errors and also to make the message duration constant.
 
 
+
 ## **`Circuit and components used`**
 
 **COMPONENTS :**
 * Battery 9v
 * Pyboard 
-* VS1838 sensor (The component in the figure is only a place marker and not the VS1838)
+* VS1838 sensor (The component in the figure is only a place marker and not the VS1838 [link](https://electronoobs.com/images/Arduino/tut_34/receiver_1.png))
 * CABLES
 
 
 
 ![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/IR_PYBOARD.JPG)
+
 
 
 
@@ -66,6 +69,7 @@ for the value 1 a signal composed of a time of 550us and then one of 1650us
 for the value 0 a signal consisting of a time of 550μs and then a time of 550μs.
 
 
+
 ## **`Measurements`**
 I made measurements with the oscilloscope to check the IR signal. 
 
@@ -73,6 +77,7 @@ I made measurements with the oscilloscope to check the IR signal.
 ![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/NewFile2.jpg)
 
 Above you can see the measurement of the START BIT, 9ms in the low state and 4.5ms in the high state
+
 
 
 ## **`Final notes`**
