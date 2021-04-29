@@ -12,8 +12,6 @@ Transmitter and receiver are tuned to the same frequency and use the same coding
 
 https://user-images.githubusercontent.com/80686975/116557928-3688e480-a8ff-11eb-836c-a184f2127e44.mp4
 
-![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/telecomando.jpg)
-
 In this application I use an ELEGOO remote control supplied with the ARDUINO STARTER KIT.
 
 ![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/PyInfraRed.JPG)
@@ -40,11 +38,6 @@ The denied codes (complement) serve as a prevention against errors and also to m
 * Pyboard 
 * VS1838 sensor (The component in the figure is only a place marker and not the VS1838 [link](https://electronoobs.com/images/Arduino/tut_34/receiver_1.png))
 * CABLES
-
-
-
-![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/IR_PYBOARD.JPG)
-
 
 
 
