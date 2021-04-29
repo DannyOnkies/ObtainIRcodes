@@ -60,7 +60,7 @@ The signal sent on pin X10 is compared with "pulse_level". If the signal is diff
 if, on the other hand, the level is the same then the timer is started immediately.
 The function returns -2 in case of timeout due to waiting for the condition or -1 for timeout due to measurement (no signal).
 The recorded times are not exactly the same as the theoretical ones and therefore I had to proceed as follows.
-After identifying the START BIT I read pairs of time values (expressed in uS) in order to assign a value of 1 or 0 to each of these pairs.
+After identifying the START BIT I read pairs of time values (expressed in μs) in order to assign a value of 1 or 0 to each of these pairs.
 Remember that the NEC protocol requires:
 for the value 1 a signal composed of a time of 550us and then one of 1650us
 for the value 0 a signal consisting of a time of 550μs and then a time of 550μs.
