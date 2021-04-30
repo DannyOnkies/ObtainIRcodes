@@ -33,6 +33,9 @@ The remaining fields have a length of 8 bits and are transmitted starting with t
 The denied codes (complement) serve as a prevention against errors and also to make the message duration constant.
 
 
+## **`Update`**
+*1/5/21*  Changed the extract_bit function. Now it recognizes Samsung remotes and those with NEC coding 
+
 
 ## **`Circuit and components used`**
 
