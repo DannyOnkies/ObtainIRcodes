@@ -74,7 +74,7 @@ I made measurements with the oscilloscope to check the IR signal.
 ![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/NewFile1.jpg)
 ![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/NewFile2.jpg)
 
-Above you can see the measurement of the START BIT, 9ms in the low state and 4.5ms in the high state
+Above you can see the measurement of the START BIT, 9ms in the low state and 4.3ms in the high state
 
 
 
