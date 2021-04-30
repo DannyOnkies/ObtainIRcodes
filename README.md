@@ -34,7 +34,7 @@ The denied codes (complement) serve as a prevention against errors and also to m
 
 
 ## **`Update`**
-*1/5/21*  Changed the extract_bit function. Now it recognizes Samsung remotes and those with NEC coding 
+*1/5/21*  Changed the **`extract_bit`** function. Now it recognizes Samsung remotes and those with NEC coding 
 
 
 ## **`Circuit and components used`**
