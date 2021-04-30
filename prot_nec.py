@@ -44,8 +44,8 @@ def extract_bit():
     while not flag:  
         legge = f1.readline().rstrip('\n')
         count += 1
-        try:
-            if 9000 < int(legge) < 10000:
+        try:            
+            if (4000 < int(legge) < 5000) or (9000 < int(legge) < 10000):
                 flag = True  # STARTING POINT OF PROTOCOL FOUND (X)
         except ValueError:
             f1.close()
@@ -72,8 +72,13 @@ def extract_bit():
         b1 = int(b1)
         b2 = int(b2)
         ottobit = ottobit + 1
+        # NEC
         if (b1 > 9000) and (4000 < b2 < 5000):
             print("NEC coding")
+            print("START BIT")
+        # SAMSUNG
+        if (4000 < b1 < 5000) and (4000 < b2 < 5000):
+            print("SAMSUNG coding")
             print("START BIT")
         if (b1 < 650) and (b2 < 650):
             print('0', end='')
