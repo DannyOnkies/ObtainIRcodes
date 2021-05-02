@@ -33,7 +33,7 @@ def decode_ir():
 def extract_bit():
     bitf = "bitfile.txt"
     nomef="burst.txt"
-    ottobit = - 1
+    ottobit = 0
     count = 0
     flag = False
     f1 = open(nomef, 'r')
@@ -71,7 +71,6 @@ def extract_bit():
             break
         b1 = int(b1)
         b2 = int(b2)
-        ottobit = ottobit + 1
         # NEC
         if (b1 > 9000) and (4000 < b2 < 5000):
             print("NEC coding")
@@ -97,6 +96,9 @@ def extract_bit():
         if count > 66:
             if b1 < 650:
                 print("BURST CLOSED\n")
+                
+        ottobit += 1
+        
     f1.close()
     bf.close()
     flip_bit()
