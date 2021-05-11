@@ -15,7 +15,8 @@ https://user-images.githubusercontent.com/80686975/116557928-3688e480-a8ff-11eb-
 
 In this application I use an ELEGOO remote control supplied with the ARDUINO STARTER KIT.
 
-![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/PyInfraRed.JPG)
+![image](https://github.com/DannyOnkies/ObtainIRcodes/blob/main/pic/PyInfraRed.jpg)
+
 
 I used a [Pyboard](https://store.micropython.org/product/PYBv1.1H)  v.1.1 with [Micropython](https://micropython.org/)
 
