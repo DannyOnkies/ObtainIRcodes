@@ -36,6 +36,7 @@ The denied codes (complement) serve as a prevention against errors and also to m
 
 ## **`Update`**
 *1/5/21*  Changed the **`extract_bit`** function. Now it recognizes Samsung remotes and those with NEC coding 
+*15/5/21* Complete rewriting of the program in object-oriented version. SAMSUNG, SONY and NEC protocol IR remote controls are recognized 
 
 
 ## **`Circuit and components used`**
